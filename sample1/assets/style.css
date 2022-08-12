@@ -35,8 +35,14 @@ body {
     text-align: center;
 }
 
-#buttons {
-    text-align: left;
+.buttons {
+    display: flex;
+    justify-content: center;
+    /* text-align: left; */
+}
+
+#infoButton{
+    margin-right: 20px;
 }
 
 h1, p {
