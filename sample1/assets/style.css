@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    background-color: green;  
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px;
+    position: absolute;
+    top: 0;
+}
+
+.card {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px;
+    text-align: center;
+}
+
+#buttons {
+    text-align: left;
+}
+
+h1, p {
+    color: blue;
+}
+
+.info {
+    text-align: left;
+}
