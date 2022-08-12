@@ -8,16 +8,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
-#header {
+.header {
     height: 100px;
     width: 100%;
     background-color: white;
     box-shadow: 5px 5px 10px 5px;
     position: absolute;
     top: 0;
+}
+
+#logo {
+    float: left;
+    margin-left: 200px;
+    margin-top: 15px;
+    width: 180px; 
+    height: 60px;
 }
 
 .card {
